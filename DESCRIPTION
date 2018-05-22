@@ -1,0 +1,11 @@
+Package: demor
+Type: Package
+Title: Provides custom functions for project X
+Version: 0.1.0
+Author: Jay Lee
+Maintainer: Jay Lee <yourself@somewhere.net>
+Description: Provides custom functions for project X.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

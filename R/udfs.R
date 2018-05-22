@@ -9,8 +9,8 @@
 #' @export
 #' @importFrom utils head tail
 #' @examples
-#' ht(mtcars)
-ht <- function(df, N1 = 5, N2 = 5){
+#' demor_ht(mtcars)
+demor_ht <- function(df, N1 = 5, N2 = 5){
 
  rbind(head(df, N1), tail(df, N2))
 
@@ -25,8 +25,8 @@ ht <- function(df, N1 = 5, N2 = 5){
 #' @export
 #'
 #' @examples
-#' htnames(mtcars)
-htnames <- function(df){
+#' demor_str(mtcars)
+demor_str <- function(df){
 
   list(myhead = head(df), mytail = tail(df), mynames = names(df), mydim = dim(df))
 }
